@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- primary content -->
+  <title>Bilal - Programmer Junior & Developer.</title>
+  <meta name="title" content="Bilal - Junior Programmer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./B-logo.png" type="image/svg+xml">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <!-- native css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+  <!-- preload imgs -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h2 style="font-family: Roboto Mono, monospace; font-weight: var(--fw-700); color: inherit;">BILAL</h2>
+        <!-- <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Bilal home"> -->
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h2 style="font-family: Roboto Mono, monospace; font-weight: var(--fw-700); color: inherit;">BILAL</h2>
+            <!-- <img src="./assets/images/logo-light.svg" width="64" height="24" alt="Julia home"> -->
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li> -->
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">bilalsanayumajid@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+62 895-3401-80343</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://discordapp.com/users/535780117792817152" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Lal1602" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.link/jbrm3o" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/chocolal_s/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=NSgq0Kk89VsrZTMN" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- Hero -->
+
+      <section class="hero" aria-label="home">
+        <div class="container" id="home">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/me4.jpeg" width="560" height="540" alt="Bilal" class="w-100" data-reveal="top">
+
+            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="20+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Junior <br> Programmer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I’m Bilal, a vocational high school student majoring in Software Engineering, a junior programmer
+              based in Surabaya. I’m very passionate about what I do.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#projects" class="btn btn-primary">See My Works</a>
+
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                As a Junior Programmer, I focus on coding, problem-solving, and improving my software development
+                skills. I collaborate with teams to ensure quality, implement features, and drive projects forward. I’m
+                committed to continuous learning and contributing innovative solutions.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Front-End Development</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Back-End Development</p>
+
+                  <span class="span">65 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 65%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Mobile Apps Development</p>
+
+                  <span class="span">75 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 75%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Database Management</p>
+
+                  <span class="span">70 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 70%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Front-End</h3>
+
+                <p class="card-text">
+                  Creating interactive and responsive user interfaces for websites or apps using HTML, CSS, and
+                  JavaScript, focusing on user experience and design.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Back-end</h3>
+
+                <p class="card-text">
+                  Managing server-side logic, data processing, APIs, and database integration to ensure secure and
+                  efficient application performance using PHP.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Mobile Apps</h3>
+
+                <p class="card-text">
+                  Developing Android/iOS mobile apps using technologies like React Native and Android Studio, focusing
+                  on performance and intuitive design.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Database Management</h3>
+
+                <p class="card-text">
+                  Handling data storage with databases using MySQL or DBeaver, ensuring structured, secure, and easily
+                  accessible data management.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+      <section class="section project" aria-labelledby="project-label" id="projects">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="https://github.com/Lal1602" class="btn btn-secondary">See All Projects</a>
+          </div>
+
+          <div class="slide-container swiper">
+            <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/herbal-mart.jpg" alt="Herbal Mart" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Herbal Mart</h2>
+                    <p class="description">
+                      The task is to create an online store website selling herbal health products using HTML, CSS, and
+                      JavaScript for design and interactivity.
+                    </p>
+
+                    <button class="button1"><a href="https://herbal-mart-kelompok-15.netlify.app/">View
+                        More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/mini-porto.jpg" alt="Mini Porto" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Mini Porto</h2>
+                    <p class="description">
+                      The task is to create a "mini portfolio" website showcasing personal projects and skills using
+                      HTML, CSS, and JavaScript.
+                    </p>
+
+                    <button class="button1"><a href="https://portofolio-bilal.netlify.app/">View More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/bunny-jump.jpg" alt="Bunny Jump Lite" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Bunny Jump Lite</h2>
+                    <p class="description">
+                      The task is to create a "Bunny Jump Lite" game using HTML, CSS, and JavaScript, where the bunny is
+                      controlled using arrow keys for fun, interactive gameplay with simple mechanics and design.
+                    </p>
+
+                    <button class="button1"><a href="https://bunny-jump-lite.netlify.app/">View More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/hunt-alien.jpg" alt="Hunting Alien" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Hunting Alien</h2>
+                    <p class="description">
+                      Develop a "Hunting Alien" game using Phaser JavaScript, controlled with arrow keys, spacebar, or
+                      touch for interactive alien-shooting gameplay.
+                    </p>
+
+                    <button class="button1"><a href="https://hunting-alien-io.netlify.app/">View More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/memory-game.jpg" alt="Memory Game" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Memory Game</h2>
+                    <p class="description">
+                      Develop a "Memory Game" website using Phaser.js, where players navigate character using arrow keys
+                      and select them with the spacebar.
+                    </p>
+
+                    <button class="button1"><a href="https://memory-game-by-bilal.netlify.app/">View More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/Math-fighter.jpg" alt="Math Fighter" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Math Fighter</h2>
+                    <p class="description">
+                      Math Fighter is a web game using JavaScript where players solve math operations and control
+                      actions via touch, enhancing both math skills and interactivity.
+                    </p>
+
+                    <button class="button1"><a href="https://encerkan-otakmu-bersama-bilal.netlify.app/">View
+                        More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/ghost-buster.jpg" alt="Ghost Buster" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Ghost Buster</h2>
+                    <p class="description">
+                      Ghost Buster is a web game using JavaScript where players use arrow keys to avoid ghost attacks
+                      and survive.
+                    </p>
+
+                    <button class="button1"><a href="https://ghostbuster-by-bilal.netlify.app/">View More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/project-img/snake-game.jpg" alt="Snake Game" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Snake Game</h2>
+                    <p class="description">
+                      Snake Game is a web game using JavaScript, where players control the snake with keyboard arrows to
+                      eat food and avoid obstacles.
+                    </p>
+
+                    <button class="button1"><a href="https://snake-game-lalsm.netlify.app/">View More</a></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="swiper-button-next swiper-nav-btn"></div>
+            <div class="swiper-button-prev swiper-nav-btn"></div><br>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #Achievement
+      -->
+      <section class="section project" aria-labelledby="project-label" id="projects">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+            <div>
+              <h2 class="h2 section-title" id="project-label">Achievements</h2>
+
+              <p class="section-text">
+                Here's all of my Achievements when i was still a student.
+              </p>
+            </div>
+
+            <a href="https://drive.google.com/drive/folders/1trAp1Br1mQuAXQ2MqZ4mQvycmblR1b_h?usp=drive_link"
+              class="btn btn-secondary">See All Achievements</a>
+          </div>
+
+          <div class="slide-container swiper">
+            <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/apps.jpeg" alt="apps Certificate" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Android Apps Dev</h2>
+                    <p class="description">
+                      Successfully completed a programming course at Timedoor Academy, focusing on Android application
+                      development.
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/16SIs7qixGOatwr0SowZ_-HXU6y2-iZGp/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/web.jpeg" alt="web" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Web Developer</h2>
+                    <p class="description">
+                      Successfully completed a programming course at Timedoor Academy, focusing on Website development.
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/1X0ISZjV7gYgNVqcmV1uDIjBj65AcTvzD/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/js.jpeg" alt="js" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Game Dev (JS & Phaser)</h2>
+                    <p class="description">
+                      Successfully completed a programming course at Timedoor Academy, focusing on Game Developer using
+                      Javascript & Phaser Framework.
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/13wRRyTz3q_xMLZu59AcriIZhLza6Vqxk/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/bee.jpeg" alt="Hunting Alien" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Accounting Coder</h2>
+                    <p class="description">
+                      Bee Coding Competition held by Bee-Software Accounting Surabaya on June 11, 2024
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/1E0a0cGa05PdXnljJ6wi9VIrM-aF5AnCs/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/HMTC.png" alt="Memory Game" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">HMTC GOES TO SCHOOL</h2>
+                    <p class="description">
+                      Participated in "Mastering the Basics: Building a Guest Attendance Application with Laravel"
+                      workshop organized by HIMA Computer-Informatics Engineering, ITS.
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/1Q16-lETHWuRJfZtedcB7R4dSxkv3AbTy/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/LKS.jpeg" alt="Math Fighter" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">LKS Web Technologies 2024</h2>
+                    <p class="description">
+                      Represented school as a competitor in the 2024 Student Competency Competition (LKS) – Web
+                      Technologies, Surabaya City, East Java Province.
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/1M5uTKNiOwqk2kOzyChxHXP3OgqLSulsM/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                    <span class="overlay1"> </span>
+                    <div class="card-image">
+                      <img src="./assets/images/sertif/kumon.jpeg" alt="Ghost Buster" class="card-img" />
+                    </div>
+                  </div>
+
+                  <div class="card-content1">
+                    <h2 class="soda-name">Completion of Kumon</h2>
+                    <p class="description">
+                      Successfully completed the final level of Kumon Mathematics Program
+                    </p>
+
+                    <button class="button1"><a
+                        href="https://drive.google.com/file/d/1lEtBP3oXT7MX7vmeieTkbQmSgseaG3ij/view?usp=drive_link">View
+                        More</a></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="swiper-button-next swiper-nav-btn"></div>
+            <div class="swiper-button-prev swiper-nav-btn"></div><br>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-reveal="right">
+              <input type="hidden" name="access_key" value="25ba6941-8e69-4b9f-b267-15d2cd90f679">
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">
+          &copy; 2024 Bilal. All rights reserved.
+        </p>
+        <p id="counter" class="visitor-count">
+          Visitors: <span id="visitorCount">0</span>
+        </p>
+      </div>
+      <ul class="social-list">
+        <li>
+          <a href="https://discordapp.com/users/535780117792817152" class="social-link">
+            <ion-icon name="logo-discord"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Lal1602" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://wa.link/jbrm3o" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/chocolal_s/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=NSgq0Kk89VsrZTMN" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- Custom JS link -->
+  <script src="./assets/js/swiper-bundle.min.js"></script> <!-- Harus sebelum script.js -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<svg width="1   50" height="90" viewBox="0 0 150 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kotak luar dengan sudut melengkung -->
+  <rect width="150" height="60" rx="8" fill="white"/>
+  <!-- Lingkaran dalam penuh, lebih tipis -->
+  <circle cx="30" cy="30" r="18" fill="#F5C1CA" stroke="#1F2937" stroke-width="2"/>
+  <!-- Lingkaran luar terputus -->
+  <circle cx="30" cy="30" r="22" stroke="#1F2937" stroke-width="2" stroke-dasharray="5 5" fill="none"/>
+  <!-- Centang -->
+  <path d="M25 30L28 33L35 25" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Teks -->
+  <text x="60" y="28" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold">20+</text>
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Projects Done</text>
+</svg>
