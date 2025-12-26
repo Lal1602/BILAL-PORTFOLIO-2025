@@ -1,54 +1,104 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/julia-portfolio)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/julia-portfolio?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/julia-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/wjqiFCTssTI?style=social)](https://youtu.be/wjqiFCTssTI)
+# Bilal — Interactive Portfolio Website
 
-  <br />
-  <br />
+A modern, futuristic **personal portfolio website** built to showcase my projects, certifications, and achievements.  
+Designed with a clean cyber/glassmorphism aesthetic, smooth scrolling, and immersive motion/3D effects for a premium browsing experience.
 
-  <h2 align="center">Julia - Portfolio Website</h2>
+> **About me:** I’m Bilal, an **Informatics Engineering student at EPIS (PENS) Surabaya**, passionate about web development and interactive JavaScript experiences.
 
-  A fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+---
 
-  <a href="https://codewithsadee.github.io/julia-portfolio/"><strong>➥ Live Demo</strong></a>
+## ✨ Highlights
 
-</div>
+- **3D animated background** using **Three.js**
+- **Smooth scrolling** with **Lenis**
+- **Scroll-based animations** with **GSAP + ScrollTrigger**
+- **Projects carousel** (responsive) using **Swiper.js**
+- **Achievements & certificates gallery** with modal preview
+- **Custom cursor** + click particle burst effect
+- **Working contact form** via **Web3Forms**
+- **Fully responsive** for desktop, tablet, and mobile
 
-<br />
+---
 
-### Demo Screeshots
+## 🧰 Tech Stack
 
-![Julia Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+- **HTML5**, **CSS3**, **JavaScript**
+- **Three.js** (3D visuals)
+- **GSAP + ScrollTrigger** (animations)
+- **Swiper.js** (sliders/carousels)
+- **Lenis** (smooth scrolling)
+- **Ionicons** (icons)
+- **Web3Forms** (contact form)
 
-### Prerequisites
+---
 
-Before you begin, ensure you have met the following requirements:
+## 📌 Sections
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- **Home** — Intro, quick highlights  
+- **About** — Skills and focus areas  
+- **Projects** — Featured works with detailed modal  
+- **Achievements** — Certificates and awards gallery  
+- **Contact** — Social links + message form
 
-### Run Locally
+---
 
-To run **Julia** locally, run this command on your git bash:
+## 🚀 Getting Started
 
-Linux and macOS:
-
+### 1) Clone the repository
 ```bash
-sudo git clone https://github.com/codewithsadee/julia-portfolio.git
+git clone https://github.com/<your-username>/<your-repo>.git
 ```
 
-Windows:
-
+### 2) Open the project folder
 ```bash
-git clone https://github.com/codewithsadee/julia-portfolio.git
+cd <your-repo>
 ```
 
-### Contact
+### 3) Run locally
+- Open `index.html` directly in your browser, **or**
+- Use VS Code **Live Server** for best results.
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+---
 
-### License
+## 🔧 Customization
 
-This project is **free to use** and does not contains any license.
+### Update profile content
+Edit text in the Hero/About sections inside `index.html`.
+
+### Replace images
+Swap images inside the `assets/` folder (e.g., your profile photo and project thumbnails).
+
+### Add or edit projects
+Update the **Projects slider** items and the related modal data in `index.html`.
+
+### Add certificates / achievements
+Add new cards in the **Achievements** section, and connect each card to a preview/link.
+
+### Contact form (Web3Forms)
+Replace your Web3Forms key:
+```html
+<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+```
+
+---
+
+## 🌐 Deployment
+
+You can deploy this portfolio easily on:
+- **GitHub Pages**
+- **Netlify**
+- **Vercel**
+
+---
+
+## 📬 Contact
+
+If you’d like to collaborate or discuss opportunities:
+
+- **Email:** bilalsanayumajid@gmail.com  
+- **Phone:** +62 895-3401-80343  
+- **GitHub:** https://github.com/Lal1602  
+
+---
+
+⭐ If you like this portfolio, feel free to **fork** and **star** the repository!
